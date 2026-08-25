@@ -69,8 +69,7 @@ Esse objeto será utilizado para capturar tudo o que o usuário digitar.
 Primeiro, vamos solicitar o nome.
 
 ```java
-System.out.print("Digite seu nome: ");
-String nome = entrada.nextLine();
+
 ```
 
 ## 👤 Parte 5. Capturando o sobrenome
@@ -78,8 +77,7 @@ String nome = entrada.nextLine();
 Agora vamos solicitar o sobrenome.
 
 ```java
-System.out.print("Digite seu sobrenome: ");
-String sobrenome = entrada.nextLine();
+
 ```
 
 ## 🎂 Parte 6. Capturando a idade
@@ -87,8 +85,7 @@ String sobrenome = entrada.nextLine();
 Para a idade, vamos utilizar uma variável do tipo `int`.
 
 ```java
-System.out.print("Digite sua idade: ");
-int idade = entrada.nextInt();
+
 ```
 
 Depois da leitura da idade, utilizaremos:
@@ -115,16 +112,7 @@ Depois de receber todas as informações, nós vamos montar uma apresentação o
 Exemplo:
 
 ```java
-System.out.println();
-System.out.println("======================================");
-System.out.println("        👤 APRESENTAÇÃO PESSOAL");
-System.out.println("======================================");
-System.out.println("👤 Nome completo: " + nome + " " + sobrenome);
-System.out.println("🎂 Idade: " + idade + " anos");
-System.out.println("🏙️ Cidade: " + cidade);
-System.out.println("======================================");
-System.out.println("😊 Seja bem vindo ao nosso programa!");
-System.out.println("======================================");
+
 ```
 
 ## 💻 Código completo
