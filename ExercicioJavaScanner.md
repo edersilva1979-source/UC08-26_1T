@@ -85,7 +85,9 @@ Agora vamos solicitar o sobrenome.
 Para a idade, vamos utilizar uma variável do tipo `int`.
 
 ```java
-
+System.out.print("Digite sua idade: ");
+int idade = entrada.nextInt();
+entrada.nextLine();
 ```
 
 Depois da leitura da idade, utilizaremos:
