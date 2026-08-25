@@ -137,36 +137,9 @@ public class Apresentacao {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-
-        System.out.println("======================================");
-        System.out.println("     ☕ CADASTRO DE APRESENTAÇÃO");
-        System.out.println("======================================");
-
-        System.out.print("👤 Digite seu nome: ");
-        String nome = entrada.nextLine();
-
-        System.out.print("👤 Digite seu sobrenome: ");
-        String sobrenome = entrada.nextLine();
-
-        System.out.print("🎂 Digite sua idade: ");
-        int idade = entrada.nextInt();
-
-        entrada.nextLine();
-
-        System.out.print("🏙️ Digite sua cidade: ");
-        String cidade = entrada.nextLine();
-
-        System.out.println();
-        System.out.println("======================================");
-        System.out.println("        👤 APRESENTAÇÃO PESSOAL");
-        System.out.println("======================================");
-        System.out.println("👤 Nome completo: " + nome + " " + sobrenome);
-        System.out.println("🎂 Idade: " + idade + " anos");
-        System.out.println("🏙️ Cidade: " + cidade);
-        System.out.println("======================================");
-        System.out.println("😊 Seja bem vindo ao nosso programa!");
-        System.out.println("======================================");
-
+.
+.
+.
         entrada.close();
     }
 }
