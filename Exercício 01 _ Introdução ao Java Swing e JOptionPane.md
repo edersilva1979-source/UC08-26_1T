@@ -174,10 +174,8 @@ O NetBeans criará automaticamente o evento `ActionPerformed`.
 Dentro desse evento, digite:
 
 ```java
-JOptionPane.showMessageDialog(
-        null,
-        "Aluno Cadastrado"
-);
+JOptionPane.showMessageDialog(....
+       
 ```
 
 Precisaremos importar a classe `JOptionPane`.
@@ -207,12 +205,8 @@ AVISO
 Dentro do evento do botão, coloque:
 
 ```java
-JOptionPane.showMessageDialog(
-        null,
-        "Aluno com muitas Faltas",
-        "Aviso",
-        JOptionPane.WARNING_MESSAGE
-);
+JOptionPane.showMessageDialog(......
+        
 ```
 
 Ao clicar no botão, deverá aparecer uma caixa de aviso com a mensagem:
@@ -224,7 +218,7 @@ Aluno com muitas Faltas
 Aqui estamos utilizando:
 
 ```java
-JOptionPane.WARNING_MESSAGE
+WARNING_MESSAGE
 ```
 
 Essa opção informa ao Java que queremos apresentar uma mensagem de **aviso**.
@@ -242,12 +236,8 @@ ERRO
 Dê dois cliques sobre ele e utilize:
 
 ```java
-JOptionPane.showMessageDialog(
-        null,
-        "Aluno reprovado por falta",
-        "Erro",
-        JOptionPane.ERROR_MESSAGE
-);
+JOptionPane.showMessageDialog(....
+        
 ```
 
 Ao clicar nesse botão, deverá aparecer:
@@ -259,7 +249,7 @@ Aluno reprovado por falta
 Estamos utilizando:
 
 ```java
-JOptionPane.ERROR_MESSAGE
+ERROR_MESSAGE
 ```
 
 Essa opção representa uma mensagem de erro.
@@ -279,10 +269,8 @@ QUESTÃO
 Digite:
 
 ```java
-JOptionPane.showConfirmDialog(
-        null,
-        "Aluno pode ser Aprovado?"
-);
+JOptionPane.showConfirmDialog(.....
+
 ```
 
 Ao executar, o Java apresentará uma caixa de confirmação com a pergunta:
@@ -302,12 +290,8 @@ Podemos deixar nossa caixa de confirmação mais organizada.
 Utilize:
 
 ```java
-JOptionPane.showConfirmDialog(
-        null,
-        "Aluno pode ser Aprovado?",
-        "Confirmação",
-        JOptionPane.YES_NO_OPTION
-);
+JOptionPane.showConfirmDialog(....
+
 ```
 
 Agora teremos as opções:
@@ -378,42 +362,28 @@ Neste exercício utilizaremos três situações diferentes.
 
 ```java
 JOptionPane.showMessageDialog(
-        null,
-        "Aluno Cadastrado"
-);
+  
 ```
 
 ### Aviso
 
 ```java
 JOptionPane.showMessageDialog(
-        null,
-        "Aluno com muitas Faltas",
-        "Aviso",
-        JOptionPane.WARNING_MESSAGE
-);
+
 ```
 
 ### Erro
 
 ```java
 JOptionPane.showMessageDialog(
-        null,
-        "Aluno reprovado por falta",
-        "Erro",
-        JOptionPane.ERROR_MESSAGE
-);
+ 
 ```
 
 ### Confirmação
 
 ```java
 JOptionPane.showConfirmDialog(
-        null,
-        "Aluno pode ser Aprovado?",
-        "Confirmação",
-        JOptionPane.YES_NO_OPTION
-);
+
 ```
 
 ---
