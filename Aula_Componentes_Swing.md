@@ -783,6 +783,7 @@ O nome não pode ficar vazio.
 ### Regra 2
 
 A senha deve possuir pelo menos 6 caracteres.
+   int quantidade = txtSenha.getPassword().length;
 
 ### Regra 3
 
