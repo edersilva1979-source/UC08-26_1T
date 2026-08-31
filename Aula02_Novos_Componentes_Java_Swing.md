@@ -169,7 +169,7 @@ JOptionPane.showMessageDialog(
 Nesse caso podemos verificar se o usuário realmente escolheu alguma opção.
 
 ```java
-if (cmbCurso.getSelectedIndex() == 0) {
+if (cmbCurso.getSelectedIndex() < 0) {
 
     JOptionPane.showMessageDialog(
             this,
